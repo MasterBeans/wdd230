@@ -1,0 +1,17 @@
+@media screen and (min-width: 22em) {
+  .main-content {
+      grid-template-columns: 1fr;
+  }   
+}
+
+@media screen and (min-width: 44em) {
+  .main-content {
+      grid-template-columns: 1fr 1fr;
+  }   
+}
+
+@media screen and (min-width: 66em) {
+  .main-content {
+      grid-template-columns: 1fr 1fr 1fr;
+  }   
+}

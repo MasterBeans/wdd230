@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=New+Tegomin|Quicksand');
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap');
+:root {
+  --heading-font: Quicksand, helvetica, sans-serif;
+  --paragraph-font: "New Tegomin", Times, serif;
+  --content-font: "Bonheur Royale", helvetica, sans-serif;
+}
+
+h1 {
+  font-family: var(--heading-font);
+  font-size: 1.1em;
+  padding: 0.5em;
+  line-height: 1.5em;
+  margin-bottom: 1px;
+  margin-top: 5px;
+}
+
+p {
+  padding: 0 0;
+}
+
+header img {
+	float: right;
+	width: 20%;
+  box-shadow: 1px 1px 10px black;
+  border-radius: 5px;
+  margin: -50px 20px ;
+}
+
+body {
+  background-color: white;
+  font-family: var(--paragraph-font);
+}
+
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2em;
+}
+
+header {
+  text-align: center;
+  color: white;
+  font-size:x-large;
+  background-color: rgb(23, 128, 84);
+  border-radius: 3px;
+  grid-gap: 5px;
+	padding: 5px;
+}
+
+
+.main-content {
+  padding: 1em 3em;
+  font-family: var(--heading-font);
+  
+  display:grid;
+  grid-column-gap: 1em;
+}
+
+.main-content section{
+  background-color: #ebfff5;
+  border-radius: 0px 0px 75px 0px;
+}
+
+
+footer {
+  text-align: center;
+  color: white;
+  background-color: rgb(23, 128, 84);
+  
+  display: grid;
+  height: 55px;
+  grid-template-columns: auto 150px;
+  border-radius: 3px;
+}
