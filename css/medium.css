@@ -1,3 +1,5 @@
 @media screen and (min-width: 32em) {
-  
+  .main-content {
+  grid-template-columns: 1fr;
+  }
 }

@@ -1,75 +1,125 @@
-@import url('https://fonts.googleapis.com/css?family=New+Tegomin|Quicksand');
-@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap');
+@import url('https://fonts.googleapis.com/css?family=New+Tegomin|Quicksand|Varela+Round');
+
 :root {
   --heading-font: Quicksand, helvetica, sans-serif;
-  --paragraph-font: "New Tegomin", Times, serif;
-  --content-font: "Bonheur Royale", helvetica, sans-serif;
+  --paragraph-font: "Varela Round", Times, serif;
+  --content-font: "Varela Round", sans-serif;
 }
-
-h1 {
-  font-family: var(--heading-font);
-  font-size: 1.1em;
-  padding: 0.5em;
-  line-height: 1.5em;
-  margin-bottom: 1px;
-  margin-top: 5px;
-}
-
-p {
-  padding: 0 0;
-}
-
-header img {
-	float: right;
-	width: 20%;
-  box-shadow: 1px 1px 10px black;
-  border-radius: 5px;
-  margin: -50px 20px ;
-}
-
 body {
   background-color: white;
-  font-family: var(--paragraph-font);
-}
-
-.content {
   max-width: 900px;
   margin: 0 auto;
   padding: 2em;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  padding: 0.5em;
+  padding-left: 0;
+  line-height: 1.5em;
+  margin-bottom: 1px;
+  margin-top: 5px;
+}
+h1{
+  font-size: 1.7em;
+}
+h2{
+  font-size: 1.5em;
+}
+h3{
+  font-size: 1.1em;
+  background-color:#3291cd;
+  padding-left: .5em;
+  border-radius: 3px;
+  text-align: center;
+  margin-bottom: .5em;
+}
+
+p {
+  padding: 0 0;
+  font-family: var(--paragraph-font);
+ 
+}
+
+.image{
+  width: 100%;
+}
+
+li {
+  padding: 5px;
+}
+
+a:hover {
+
+  color: green;
+
+}
+
+section{
+  padding: 1em;
+  margin: 0.5em;
+  background-color: #F8F0DF;
+  border-radius: 3px;
+
+}
+
 header {
   text-align: center;
-  color: white;
+  color:#082032;
   font-size:x-large;
-  background-color: rgb(23, 128, 84);
+  background-color: #79B4B7;
+  padding:10px;
   border-radius: 3px;
-  grid-gap: 5px;
-	padding: 5px;
+  background-image: url("/lesson2/images/designing2.jpg");
+  background-size:  100%;
 }
 
+header img {
+  float:right;
+	width: 200px;
+  box-shadow: 1px 1px 10px black;
+  border-radius: 5px;
+  margin: 20px 0 0 0;
+}
 
 .main-content {
-  padding: 1em 3em;
-  font-family: var(--heading-font);
+  padding: 1em 1em;
+  font-family: var(--content-font);
+  background-color: #FEFBF3;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.subheading{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  vertical-align: middle;
+ 
+}
+
+.subheading h2{
+  text-align: left;
+}
+
+.subheading h4{
   
-  display:grid;
-  grid-column-gap: 1em;
+  text-align: right;
+  
+  margin: auto 0;
 }
-
-.main-content section{
-  background-color: #ebfff5;
-  border-radius: 0px 0px 75px 0px;
-}
-
-
 footer {
   text-align: center;
-  color: white;
-  background-color: rgb(23, 128, 84);
-  
+  background-color: #9D9D9D;
+  font-size: 1.1em;
   display: grid;
   height: 55px;
-  grid-template-columns: auto 150px;
   border-radius: 3px;
+}
+
+footer a{
+  color: #1C0891;
+}
+
+footer p{
+  font-family: "New Tegomin", sans-serif;
 }
