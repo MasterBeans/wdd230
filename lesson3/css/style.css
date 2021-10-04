@@ -132,6 +132,16 @@ header img {
 .logo img{
   width: 40%;
 }
+
+.card{
+  padding:0;
+  margin-bottom: 5px;;
+}
+
+.persons{
+  padding: 0;
+  margin:0;
+}
 footer {
   text-align: center;
   background-color: #9D9D9D;
