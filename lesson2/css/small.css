@@ -1,0 +1,29 @@
+@media screen and (max-width: 479px) {
+  /* start of phone styles */
+  
+    
+    .main-content {
+    grid-template-columns: 1fr;
+    }
+  
+    footer{
+      font-size: 90%;
+    }
+  
+    header h1{
+      margin: 0;
+      font-size: large;
+    }
+
+    h2{
+      font-size: large;
+    }
+    
+    h3{
+      font-size: 0.9em;
+    }
+     p{
+       font-size: small;
+     }
+
+  }

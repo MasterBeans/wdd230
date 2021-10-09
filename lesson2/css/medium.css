@@ -1,17 +1,21 @@
-@media screen and (min-width: 22em) {
-  .main-content {
-      grid-template-columns: 1fr;
-  }   
-}
+@media screen and (max-width: 767px) {
+  /* start of medium tablet styles */
 
-@media screen and (min-width: 44em) {
   .main-content {
-      grid-template-columns: 1fr 1fr;
-  }   
-}
+  grid-template-columns: 1fr;
+  }
 
-@media screen and (min-width: 66em) {
-  .main-content {
-      grid-template-columns: 1fr 1fr 1fr;
-  }   
+  footer{
+    font-size: 90%;
+  }
+
+  header h1{
+    margin: 0;
+    font-size: larger;
+  }
+  
+  h2{
+    font-size: larger;
+  }
+ 
 }
