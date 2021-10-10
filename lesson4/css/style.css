@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Varela+Round');
+
+:root {
+  --heading-font: Quicksand, helvetica, sans-serif;
+  --paragraph-font: "Varela Round", Times, serif;
+  --content-font: "Varela Round", sans-serif;
+}
+
+body {
+  background-color: white;
+  margin: 0 auto;
+  
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  padding: 0.5em;
+  line-height: 1.5em;
+  margin-bottom: 1px;
+  margin-top: 5px;
+}
+h1{
+  font-size: 1.7em;
+}
+h2{
+  font-size: 1.5em;
+}
+h3{
+  font-size: 1.3em;
+}
+
+p {
+  padding: 0 0;
+  font-family: var(--paragraph-font);
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  font-size:x-large;
+  background-color: #2C3531;
+  padding:2px;
+
+}
+
+header img {
+  float:right;
+	width: 200px;
+ }
+
+.header-content{
+  flex-direction: column;
+  justify-content: center;
+  
+}
+.header-content h1{
+ border: 0;
+ margin: 0;
+ padding: 0;
+}
+#motto{
+  font-size: 70%;
+}
+.main-content {
+  padding: 1em 3em;
+  font-family: var(--content-font);
+  background-color: #FEFBF3;
+}
+
+.navbar{
+  list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+  background-color: #d6d0d0;
+  
+
+}
+
+.navbar li{
+  display: block;
+	text-align: center;
+	padding: 0.5rem;
+  border-color: rgb(156, 154, 154);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.site-name{
+  font-size: 40px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.site-name a{
+  font-size: 20px;
+}
+.content{
+  margin-left: 20px;
+  text-align: justify;
+}
+.logo{
+  text-align: center;
+  
+}
+
+.logo img{
+  width: 40%;
+}
+
+.card{
+  padding:0;
+  margin-bottom: 5px;;
+}
+
+.persons{
+  padding: 0;
+  margin:0;
+}
+footer {
+  text-align: center;
+  background-color: #9D9D9D;
+  font-size: 1.1em;
+  display: grid;
+  height: 55px;
+  border-radius: 3px;
+}
+
+footer a{
+  color: #1C0891;
+}
