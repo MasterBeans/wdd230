@@ -9,23 +9,31 @@
 body {
   background-color: white;
   margin: 0 auto;
-  
+
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--heading-font);
   padding: 0.5em;
   line-height: 1.5em;
   margin-bottom: 1px;
   margin-top: 5px;
 }
-h1{
+
+h1 {
   font-size: 1.7em;
 }
-h2{
+
+h2 {
   font-size: 1.5em;
 }
-h3{
+
+h3 {
   font-size: 1.3em;
 }
 
@@ -39,87 +47,100 @@ header {
   justify-content: center;
   align-content: center;
   color: white;
-  font-size:x-large;
+  font-size: x-large;
   background-color: #2C3531;
-  padding:2px;
-
+  padding: 2px;
+  padding-right: 20%;
 }
 
 header img {
-  float:right;
-	width: 200px;
- }
+  float: right;
+  width: 200px;
 
-.header-content{
-  flex-direction: column;
-  justify-content: center;
-  
 }
-.header-content h1{
- border: 0;
- margin: 0;
- padding: 0;
+
+.header-content {
+  vertical-align: middle;
+  padding-top: 35px;
+
 }
-#motto{
-  font-size: 70%;
+
+.header-content h1 {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  line-height: 1em;
 }
+
+#motto {
+  font-size: .7em;
+  font-family: var(--paragraph-font);
+  text-align: right;
+
+}
+
+nav {
+  margin: 0;
+  text-align: left;
+  background-color: #d6d0d0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+  display: flex;
+}
+
+nav ul li {
+  flex: 1 1 100%;
+  text-align: center;
+  background-color: #d6d0d0;
+  color: #1C0891;
+  padding: 0.5rem;
+
+}
+
+nav ul li a {
+  text-align: center;
+  text-decoration: none;
+  font-family: var(--paragraph-font);
+  font-size: 1em;
+}
+
+nav ul li:hover {
+  background-color: #2747f2;
+  color: #faeca2;
+}
+
+nav ul li a:hover {
+  color: #faeca2;
+}
+
+nav ul li:first-child {
+  display: none;
+}
+
 .main-content {
   padding: 1em 3em;
   font-family: var(--content-font);
   background-color: #FEFBF3;
 }
 
-.navbar{
-  list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-  background-color: #d6d0d0;
-  
-
-}
-
-.navbar li{
-  display: block;
-	text-align: center;
-	padding: 0.5rem;
-  border-color: rgb(156, 154, 154);
-  border-style: solid;
-  border-width: 1px;
-}
-
-.site-name{
-  font-size: 40px;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
-
-.site-name a{
-  font-size: 20px;
-}
-.content{
-  margin-left: 20px;
-  text-align: justify;
-}
-.logo{
-  text-align: center;
+img {
+  max-width: 90%;
   
 }
 
-.logo img{
-  width: 40%;
+main img{
+  margin: auto 5% auto 5%;
+  
 }
 
-.card{
-  padding:0;
-  margin-bottom: 5px;;
-}
 
-.persons{
-  padding: 0;
-  margin:0;
-}
+
 footer {
   text-align: center;
   background-color: #9D9D9D;
@@ -129,6 +150,6 @@ footer {
   border-radius: 3px;
 }
 
-footer a{
+footer a {
   color: #1C0891;
 }

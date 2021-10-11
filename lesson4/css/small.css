@@ -1,0 +1,81 @@
+
+@media screen and (max-width: 32.5em){
+  header h1{
+    font-size: 1em;
+  }
+  .header-content{
+    vertical-align: middle;
+    padding-top: 30px;
+    
+  }
+  header img {
+    width: 100px;
+  
+   }
+   #motto{
+     font-size: .3em;
+   }
+
+   nav{
+     margin: 0 auto;
+     background-color: #2747f2 ;
+   }
+   nav ul{
+     
+     padding: 0;
+     list-style: none;
+     
+   }
+   nav ul li{
+     display:none;
+     
+   }
+
+   nav ul li:first-child{
+     display: block;
+     
+   }
+
+   nav ul li:hover{
+    background-color: #2747f2 ;
+    color: #faeca2;
+  }
+   nav ul a{
+    display: block;
+    padding: 0.1em;
+    text-align: left;
+	  text-decoration: none;
+	  color: black;
+	  font-weight: 500;
+	  transition: 0.5s;
+   }
+   .navigation a:hover {
+    color: #faeca2;
+  }
+  .responsive li {
+    display: block;
+    text-align: left;
+  }
+
+}
+
+@media screen and (max-width: 28em){
+  header h1{
+    font-size: .9em;
+  }
+  .header-content{
+    vertical-align: middle;
+    padding-top: 25px;
+    
+  }
+  header img {
+    width: 90px;
+  
+   }
+   header #motto{
+     font-size: 7px;
+     text-align: left;
+   }
+
+   
+}
