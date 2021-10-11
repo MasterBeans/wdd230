@@ -6,17 +6,21 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="images/logo4.png" sizes="96x96" type="image/png">
-  
+
   <title>Panahon Center | Preston Town </title>
 
   <!-- Normalize CSS -->
   <link rel="stylesheet" href="css/normalize.css">
+  <!-- Fontawesome --> 
+  <link href="/lesson4/fontawesome/css/all.min.css" rel="stylesheet">
   <!-- Main Styling -->
   <link rel="stylesheet" href="css/style.css">
   <!-- CSS for Small Screen -->
   <link rel="stylesheet" href="css/small.css">
   <!-- CSS for Large Screen -->
   <link rel="stylesheet" href="css/medium.css">
+  
+ 
 
 </head>
 
@@ -41,10 +45,28 @@
   </nav>
   <main>
     <h2>Preston Idaho</h2>
-    <img src="images/hero.jpg" alt="Hero Image">
-    <div class="contentbox">Weather Summary</div>
-    <div class="contentbox forecast">5 Day Forecast</div>
-    <div class="contentbox">Article
+
+    <div class="contentbox summary">
+      <img src="images/hero2.jpg" alt="Hero Image">
+      <div class="flybox">
+        <h3 class='content-title'>Weather Summary</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quam nisi,
+          aliquet id semper eget, scelerisque at tortor.
+        </p>
+      </div>
+    </div>
+    <div class="contentbox forecast">
+      <h3 class='content-title'>5 Day Forecast</h3>
+      <ul>
+        <li class="forecast-box"><h4>Day 1 </h4> <p class="fas fa-cloud-rain"></p></li>
+        <li class="forecast-box"><h4>Day 2 </h4> <p class="fas fa-cloud-showers-heavy"></p></li>
+        <li class="forecast-box"><h4>Day 3 </h4> <p class="fas fa-cloud-rain"></p></li>
+        <li class="forecast-box"><h4>Day 4 </h4> <p class="fas fa-cloud-sun-rain"></p></li>
+        <li class="forecast-box"><h4>Day 5 </h4> <p class="fas fa-cloud-sun"></p></li>
+      </ul>
+    </div>
+    <div class="contentbox">
+      <h3 class='content-title'>Article</h3>
       <p>
         para
       </p>
@@ -55,15 +77,15 @@
     <div class="footer-box">
       <h4>Contact Information</h4>
       <ul>
-				<li>&#9742; (222) 222-8888</li>
-				<li>&#9993; preston@panahoncenter.com</li>
+        <li>&#9742; (222) 222-8888</li>
+        <li>&#9993; preston@panahoncenter.com</li>
       </ul>
       <img src="images/map.jpg" alt="map image">
       <div class="social-media">
         <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="facebook icon"></a>
         <a href="www.instagram.com"><img src="images/instagram.png" alt="instagram icon"></a>
         <a href="https://twitter.com/?lang=en"><img src="images/twitter.png" alt="twitter icon"></a>
-    </div>
+      </div>
     </div>
     <section class="footer-bar">
       <ul>
@@ -75,7 +97,7 @@
     </section>
   </footer>
 
-  <script defer src="js/currentDate.js"></script>  
+  <script defer src="js/currentDate.js"></script>
   <script defer src="js/navigation.js"></script>
 </body>
 

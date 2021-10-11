@@ -3,6 +3,10 @@
   header h1{
     font-size: 1em;
   }
+
+  h2 {
+    font-size: 1em;
+  }
   .header-content{
     vertical-align: middle;
     padding-top: 30px;
@@ -57,6 +61,47 @@
     text-align: left;
   }
 
+  .summary h2{
+    font-size: 1em;
+  }
+  .content-title{
+    margin: 5px;
+    padding: 0;
+    font-size: .8em;
+  
+  }
+  .flybox{
+    height: inherit;
+  }
+   .flybox p{
+    margin: 5px;
+    font-size: .7em;
+   }
+
+   .forecast ul{
+    display: block;
+    list-style-type: none;
+    padding: 0;
+    font-size: 1em;
+  }
+  .forecast-box{
+    max-height: 50px;
+    display: flex;
+    margin: 5px;
+    background-color: rgba(255, 255, 255, 0.3);
+    text-align: center;
+    padding: 10px;
+  }
+  .forecast-box h4{
+    width: 25%;
+  }
+  .forecast-box p{
+    font-size:3em;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    
+  }
 }
 
 @media screen and (max-width: 28em){
