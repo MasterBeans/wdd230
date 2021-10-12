@@ -108,6 +108,30 @@
     padding: 0;
   }
   
+  .footer-box{
+    padding: 0;
+    margin: 0;
+    align-content: center;
+  }
+  .footer-box img{
+    grid-row: 2/4;
+    min-width: 0;
+  }
+
+  .footer-bar{
+    font-size: 10px;
+  }
+  .footer-bar ul li{
+    display: inline;
+    padding: 0 4px 0 4px;
+  }
+  .social-media{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 0 ;
+  margin: 0px auto 0px auto;
+
+}
 }
 
 @media screen and (max-width: 28em){
