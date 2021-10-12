@@ -70,4 +70,38 @@
   .forecast-box p{
     font-size:2em;
   }
+
+  .tips{
+    display: block;
+  }
+  .tips img{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: auto;
+    padding-left: auto;
+    padding-right: auto;
+  }
+  .tips p{
+    font-size: 80%;
+  }
+
+  .footer-box{
+    display: block;
+  }
+
+  .footer-box img{
+    min-width: none;
+    width: inherit;
+  }
+
+  .footer-box ul{
+    font-size: 0.7em;
+  }
+
+  .social-media{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+  }
 }

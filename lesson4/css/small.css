@@ -102,6 +102,12 @@
     width: 100%;
     
   }
+  .tips img{
+    width: inherit;
+    margin: 0;
+    padding: 0;
+  }
+  
 }
 
 @media screen and (max-width: 28em){
