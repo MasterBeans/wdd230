@@ -126,11 +126,13 @@
     padding: 0 4px 0 4px;
   }
   .social-media{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  padding: 0 ;
-  margin: 0px auto 0px auto;
+  display: flex;
+ 
+  
 
+}
+.social-media a{
+  flex: 1 1 100%;
 }
 }
 
