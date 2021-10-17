@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Varela+Round');
+
+:root {
+  --heading-font: Quicksand, helvetica, sans-serif;
+  --paragraph-font: "Varela Round", Times, serif;
+  --content-font: "Varela Round", sans-serif;
+}
+
+body {
+  background-color: #d9b08c;;
+  margin: 0;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font);
+  padding: 0.5em;
+  line-height: 1.5em;
+  margin-bottom: 1px;
+  margin-top: 5px;
+}
+
+h1 {
+  font-size: 1.7em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.3em;
+}
+
+p {
+  padding: 0 0;
+  font-family: var(--paragraph-font);
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  font-size: x-large;
+  background-color: #2C3531;
+  padding: 2px;
+  padding-right: 20%;
+}
+
+img{
+  max-width: 100%;
+}
+
+header img {
+  float: right;
+  width: 200px;
+
+}
+
+.header-content {
+  vertical-align: middle;
+  padding-top: 35px;
+
+}
+
+.header-content h1 {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  line-height: 1em;
+}
+
+#motto {
+  font-size: .7em;
+  font-family: var(--paragraph-font);
+  text-align: right;
+
+}
+
+nav {
+  margin: 0;
+  text-align: left;
+  background-color: #d6d0d0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+}
+
+nav ul li {
+  flex: 1 1 100%;
+  text-align: center;
+  background-color: #d6d0d0;
+  color: #1C0891;
+  padding: 0.5rem;
+
+}
+
+nav ul li a {
+  text-align: center;
+  text-decoration: none;
+  font-family: var(--paragraph-font);
+  font-size: 1em;
+}
+
+nav ul li:hover {
+  background-color: #2747f2;
+  color: #faeca2;
+}
+
+nav ul li a:hover {
+  color: #faeca2;
+}
+
+nav ul li:first-child {
+  display: none;
+}
+
+main {
+  padding: 1em 3em;
+  font-family: var(--content-font);
+  margin: auto 5% auto 5%;
+  display: block;
+  max-width: 800px;
+  margin: auto;
+  
+  
+}
+
+main h2{
+  margin: 0;
+  padding: 0;
+}
+main img{
+  max-width: 100%;
+  box-shadow: black;
+}
+
+.summary{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+    
+}
+.flybox{
+  margin: 50px auto auto 50px ;
+  position: absolute;
+  width: 300px;
+  height: inherit;
+  text-align: justify;
+  background-color: rgba(255, 255, 255, 0.6);
+  color: black;
+}
+
+ .flybox p{
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: .9em;
+ }
+footer {
+  text-align: center;
+  background-color: #9D9D9D;
+  font-size: 1.1em;
+  display: grid;
+  height: 55px;
+  border-radius: 3px;
+}
+.content-title{
+  margin-left: 20px;
+  font-size: 1.1em;
+}
+
+.forecast h3{
+  width: inherit;
+  text-align: center;
+  background-color:#D1A177 ;
+  margin: 0;
+}
+
+.forecast ul{
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+.forecast-box{
+  flex: 1 1 100%;
+  overflow: hidden;
+  height: 200px;
+  margin: 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+  text-align: center;
+  padding: 10px;
+}
+.tips{
+  display: grid;
+  grid-template-columns: 1fr 35%;
+  justify-content: left;
+  padding: 10px;
+  box-shadow: 5px 5px 10px rgba(70, 69, 69, 0.2);
+}
+
+.tips h3{
+  grid-column: 1/3;
+}
+.tips img{
+  width: 300px;
+  grid-row: 2/3;
+  margin-top: 20px;
+  padding-right: 20px;
+}
+
+.tips p{
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.tips p::first-letter{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 6rem;
+  float: left;
+  line-height: 0.65;
+  margin: 0.1em 0.1em 0.2em 0;
+}
+
+.forecast-box p{
+  font-size:3em;
+}
+
+footer{
+  color: white;
+  background-color: #2C3531;
+  display: block;
+  
+}
+
+.footer-box{
+  background-color: #2C3531;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0 100px 20px;
+  margin: 0;
+}
+
+.footer-box h4{
+  grid-column: 1/3;
+}
+
+.footer-box img{
+  grid-row: 2/4;
+  min-width: 300px;
+}
+.footer-box ul{
+  list-style: none;
+  text-align: left;
+  vertical-align: center;
+  font-size: 0.8em;
+  font-family: var(--paragraph-font);
+ 
+}
+
+.footer-box ul li{
+  padding: 10px;
+  
+}
+
+.social-media{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 0 100px 0 0;
+  margin: 0px 50px;
+}
+.social-media a{
+  padding-right: 20px;
+}
+
+.social-media a img{
+  min-width: 50px;
+  max-width: 50px;
+}
+
+.footer-bar{
+  background-color: #2C3531;
+  margin: 0;
+  padding: 20px;
+  font-family: var(--paragraph-font);
+  font-size: 14px;
+}
+
+.footer-bar ul{
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-bar ul li{
+  display: inline;
+  padding: 0 10px 0 10px;
+}
+
+footer a {
+  color: #1C0891;
+}
