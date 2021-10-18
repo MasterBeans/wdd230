@@ -125,6 +125,10 @@ nav ul li a:hover {
 nav ul li:first-child {
   display: none;
 }
+nav ul li .active{
+  color: blue;
+  text-shadow: .5px .5px #2747f2;
+}
 
 main {
   padding: 1em 3em;
@@ -160,13 +164,31 @@ main img{
   text-align: justify;
   background-color: rgba(255, 255, 255, 0.6);
   color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 
+  "title title"
+     "label-summary summary"
+     "label-high  high"
+     "label-humidity humidity"
+     "label-wind wind"
+     "label-precipitation precipitation";
+  padding: 10px;
 }
 
- .flybox p{
-  margin-left: 20px;
-  margin-right: 20px;
-  font-size: .9em;
- }
+.flybox h3{
+  margin: 5px 0;
+  border-bottom: 1px solid;
+  grid-area: title;
+  place-items: center;
+}
+
+.flybox span{
+  font-size: 16px;
+}
+
+
+ 
 footer {
   text-align: center;
   background-color: #9D9D9D;
@@ -200,6 +222,16 @@ footer {
   background-color: rgba(255, 255, 255, 0.3);
   text-align: center;
   padding: 10px;
+}
+
+.forecast-box .icon{
+  font-size:3em;
+  margin: 0;
+  padding: 10px 0 0 0;
+}
+
+.forecast-box .temp{
+  font-size: 1.5em;
 }
 .tips{
   display: grid;
@@ -309,4 +341,13 @@ footer{
 
 footer a {
   color: #1C0891;
+}
+
+#pan-Message{
+  font-family: var(--paragraph-font), sans-serif;
+  text-align: center;
+  padding: 10px 25%;
+  font-size: 1rem;
+  background-color: #E2FFFC;
+  box-shadow: 5px 5px 10px rgba(70, 69, 69, 0.2);
 }

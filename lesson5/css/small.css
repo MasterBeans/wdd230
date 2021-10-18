@@ -35,6 +35,11 @@
      
    }
 
+    nav ul li .active{
+      color: blue;
+  text-shadow: .5px .5px #2747f2;
+    }
+
    nav ul li:first-child{
      display: block;
      
@@ -73,10 +78,9 @@
   .flybox{
     height: inherit;
   }
-   .flybox p{
-    margin: 5px;
-    font-size: .7em;
-   }
+  
+
+
 
    .forecast ul{
     display: block;
@@ -95,12 +99,17 @@
   .forecast-box h4{
     width: 25%;
   }
-  .forecast-box p{
+  .forecast-box .icon{
     font-size:3em;
     margin: 0;
     padding: 0;
     width: 100%;
     
+  }
+
+  .forecast-box .temp{
+    font-size: 1.5em;
+    padding-right: 20px;
   }
   .tips img{
     width: inherit;

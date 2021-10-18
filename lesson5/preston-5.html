@@ -23,6 +23,8 @@
 </head>
 
 <body>
+  <div id ="pan-Message">Saturday =  Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion."</div>
+  
   <header>
     <img class='logo' src="images/logo4.png" alt="logo">
     <div class='header-content'>
@@ -34,7 +36,7 @@
     <ul id="nav-menu">
       <li><a class="btn-menu" href="#">&#9776; Menu</a></li>
       <li><a href="../index.html">Home</a></li>
-      <li><a class="active" href="preston-4.html">Preston</a></li>
+      <li><a class="active" href="preston-5.html">Preston</a></li>
       <li><a href="#">Soda Springs</a></li>
       <li><a href="#">Fish Haven</a></li>
       <li><a href="#">Storm Center</a></li>
@@ -48,19 +50,41 @@
       <img src="https://picsum.photos/600/200" alt="Hero Image">
       <div class="flybox">
         <h3 class='content-title'>Weather Summary</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quam nisi,
-          aliquet id semper eget, scelerisque at tortor.
-        </p>
+        <span class="label-summary">Summary: </span><span class="summary">Partly Cloudy</span>
+        <span class="label-high">High:</span><span class="high">32&deg;C</span>
+        <span class="label-humidity">Humidity</span><span class="humidity">68%</span>
+        <span class="label-wind">Wind</span><span class="wind">6km/h</span>
+        <span class="label-precipitation">Precipitation</span><span class="humidity">17%</span>
       </div>
     </div>
     <div class="contentbox forecast">
       <h3 class='content-title'>5 Day Forecast</h3>
       <ul>
-        <li class="forecast-box"><h4>Day 1 </h4> <p class="fas fa-cloud-rain"></p></li>
-        <li class="forecast-box"><h4>Day 2 </h4> <p class="fas fa-cloud-showers-heavy"></p></li>
-        <li class="forecast-box"><h4>Day 3 </h4> <p class="fas fa-cloud-rain"></p></li>
-        <li class="forecast-box"><h4>Day 4 </h4> <p class="fas fa-cloud-sun-rain"></p></li>
-        <li class="forecast-box"><h4>Day 5 </h4> <p class="fas fa-cloud-sun"></p></li>
+        <li class="forecast-box">
+          <h4>Monday </h4> 
+          <span class="fas fa-cloud-rain icon"></span>
+          <p class="temp">30&deg;C</p>
+        </li>
+        <li class="forecast-box">
+          <h4>Tuesday </h4> 
+          <span class="fas fa-cloud-showers-heavy icon"></span>
+          <p class="temp">29&deg;C</p>
+        </li>
+        <li class="forecast-box">
+          <h4>Wednesday </h4> 
+          <span class="fas fa-cloud-rain icon"></span>
+          <p class="temp">30&deg;C</p>
+        </li>
+        <li class="forecast-box">
+          <h4>Thursday</h4> 
+          <span class="fas fa-cloud-sun-rain icon"></span>
+          <p class="temp">31&deg;C</p>
+        </li>
+        <li class="forecast-box">
+          <h4>Friday</h4> 
+          <span class="fas fa-cloud-sun icon"></span>
+          <p class="temp">32&deg;C</p>
+        </li>
       </ul>
     </div>
     <div class="contentbox forecast tips">
@@ -113,6 +137,7 @@
 
   <script defer src="js/currentDate.js"></script>
   <script defer src="js/navigation.js"></script>
+  <script defer src="js/pancake.js"></script>
 </body>
 
 </html>
