@@ -176,6 +176,18 @@ main img{
   padding: 10px;
 }
 
+.label-summary{grid-area: label-summary;}
+.label-high{grid-area: label-high;}
+.label-humidity{grid-area: label-humidity;}
+.label-wind{grid-area: label-wind;}
+.label-precipitation{grid-area: label-precipitation;}
+
+.summary{grid-area: summary;}
+.high{grid-area: high;}
+.humidity{grid-area: humidity;}
+.wind{grid-area: wind;}
+.precipitation{grid-area: precipitation;}
+
 .flybox h3{
   margin: 5px 0;
   border-bottom: 1px solid;
