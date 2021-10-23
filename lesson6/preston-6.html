@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="shortcut icon" href="../favicon.ico">
+  <title>Panahon Center | Preston Town </title>
+
+  <!-- Normalize CSS -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <!-- Fontawesome --> 
+  <link href="fontawesome/css/all.min.css" rel="stylesheet">
+  <!-- Main Styling -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- CSS for Small Screen -->
+  <link rel="stylesheet" href="css/small.css">
+  <!-- CSS for Large Screen -->
+  <link rel="stylesheet" href="css/medium.css">
+  
+</head>
+
+<body>
+  <div id ="pan-Message">Saturday =  Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion."</div>
+  
+  <header>
+    <img class='logo' src="images/logo4.png" alt="logo">
+
+    <div class='header-content'>
+      <h1>PANAHON CENTER</h1>
+      <div id='motto'>Panahon ng pagkakataon!</div>
+    </div>
+  </header>
+  <nav>
+    <ul id="nav-menu">
+      <li><a class="btn-menu" href="#">&#9776; Menu</a></li>
+      <li><a href="../index.html">Home</a></li>
+      <li><a class="active" href="preston-5.html">Preston</a></li>
+      <li><a href="#">Soda Springs</a></li>
+      <li><a href="#">Fish Haven</a></li>
+      <li><a href="#">Storm Center</a></li>
+      <li><a href="#">Gallery</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h2>Preston Idaho</h2>
+
+    <div class="contentbox summary">
+      <img src="https://picsum.photos/600/200" alt="Hero Image">
+      <div class="flybox">
+        <h3 class='content-title'>Weather Summary</h3>
+        <span class="label-summary">Summary: </span><span class="summary">Partly Cloudy</span>
+        <span class="label-high">High:</span><span class="high">32&deg;C</span>
+        <span class="label-humidity">Humidity</span><span class="humidity">68%</span>
+        <span class="label-wind">Wind</span><span class="wind">6km/h</span>
+        <span class="label-precipitation">Precipitation</span><span class="precipitation">17%</span>
+      </div>
+    </div>
+    <div class="contentbox forecast">
+      <h3 class='content-title'>5 Day Forecast</h3>
+      <ul>
+        <li class="forecast-box">
+          <h4>Monday </h4> 
+          <span class="fas fa-cloud-rain icon"></span>
+          <p class="temp">30&deg;C</p>
+        </li>
+        <li class="forecast-box">
+          <h4>Tuesday </h4> 
+          <span class="fas fa-cloud-showers-heavy icon"></span>
+          <p class="temp">29&deg;C</p>
+        </li>
+        <li class="forecast-box">
+          <h4>Wednesday </h4> 
+          <span class="fas fa-cloud-rain icon"></span>
+          <p class="temp">30&deg;C</p>
+        </li>
+        <li class="forecast-box">
+          <h4>Thursday</h4> 
+          <span class="fas fa-cloud-sun-rain icon"></span>
+          <p class="temp">31&deg;C</p>
+        </li>
+        <li class="forecast-box">
+          <h4>Friday</h4> 
+          <span class="fas fa-cloud-sun icon"></span>
+          <p class="temp">32&deg;C</p>
+        </li>
+      </ul>
+    </div>
+    <div class="contentbox forecast tips">
+      <h3 class='content-title'>Safety Tips</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        Ut iaculis turpis ac quam sodales mattis. 
+        Sed efficitur condimentum nunc, sed gravida risus blandit nec. 
+        Mauris sit amet hendrerit nisi, at auctor est. 
+        Nam non justo facilisis, fringilla risus placerat, facilisis tortor. 
+        Morbi ultricies turpis non libero ultricies lobortis. 
+        Suspendisse gravida est in malesuada sodales. 
+        Pellentesque accumsan erat in nisi aliquet ornare. 
+        Vivamus in imperdiet erat, ac vestibulum nunc. 
+        Cras vitae mauris at metus consequat porttitor. 
+        Fusce eget eros consequat, lacinia elit quis, vulputate elit. 
+        Sed felis diam, consectetur vitae pretium ac, iaculis quis mauris. 
+        Mauris condimentum nunc lorem, at sagittis sem dictum id. 
+        Maecenas tristique odio est. Pellentesque quis metus et eros posuere fermentum. 
+        Sed tristique dui eget odio egestas pharetra.
+      </p>
+      <img src="images/hot.jpg" alt="article image">
+    </div>
+  </main>
+  <footer>
+    <div class="footer-box">
+      <h4>Contact Information</h4>
+      <ul>
+        <li>&#9742; (222) 222-8888</li>
+        <li>&#9993; preston@panahoncenter.com</li>
+      </ul>
+      <img src="images/map.jpg" alt="map image">
+      <div class="social-media">
+        <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="facebook icon"></a>
+        <a href="www.instagram.com"><img src="images/instagram.png" alt="instagram icon"></a>
+        <a href="https://twitter.com/?lang=en"><img src="images/twitter.png" alt="twitter icon"></a>
+      </div>
+    </div>
+    <section class="footer-bar">
+      <ul>
+        <li>&copy; <span id="year"></span> </li>
+        <li>|</li>
+        <li>Panahon Center </li>
+        <li>|</li>
+        <li>Vincent Jularbal</li>
+      </ul>
+      <span id="currentDate"></span>
+    </section>
+  </footer>
+
+  <script defer src="js/currentDate.js"></script>
+  <script defer src="js/navigation.js"></script>
+  <script defer src="js/pancake.js"></script>
+</body>
+
+</html>
