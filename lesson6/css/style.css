@@ -150,7 +150,7 @@ main img{
   box-shadow: black;
 }
 
-.summary{
+.summary-box{
   display: flex;
   flex-direction: column;
   padding: 10px;
@@ -172,7 +172,7 @@ main img{
      "label-high  high"
      "label-humidity humidity"
      "label-wind wind"
-     "label-precipitation precipitation";
+     "label-chill chill";
   padding: 10px;
 }
 

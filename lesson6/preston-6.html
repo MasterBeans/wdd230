@@ -5,13 +5,13 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+
   <link rel="shortcut icon" href="../favicon.ico">
   <title>Panahon Center | Preston Town </title>
 
   <!-- Normalize CSS -->
   <link rel="stylesheet" href="css/normalize.css">
-  <!-- Fontawesome --> 
+  <!-- Fontawesome -->
   <link href="fontawesome/css/all.min.css" rel="stylesheet">
   <!-- Main Styling -->
   <link rel="stylesheet" href="css/style.css">
@@ -19,12 +19,12 @@
   <link rel="stylesheet" href="css/small.css">
   <!-- CSS for Large Screen -->
   <link rel="stylesheet" href="css/medium.css">
-  
+
 </head>
 
 <body>
-  <div id ="pan-Message">Saturday =  Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion."</div>
-  
+  <div id="pan-Message">Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion."</div>
+
   <header>
     <img class='logo' src="images/logo4.png" alt="logo">
 
@@ -47,42 +47,47 @@
   <main>
     <h2>Preston Idaho</h2>
 
-    <div class="contentbox summary">
-      <img src="https://picsum.photos/600/200" alt="Hero Image">
+    <div class="contentbox summary-box">
+      <picture>
+        <source srcset="images/image_small.jpg" media="(max-width:519px)">
+        <source srcset="images/image_medium.jpg" media="(max-width:768px)">
+        <source srcset="images/image_large.jpg" media="(min-width:769px)">
+        <img class="hero" src="images/image_large.jpg" alt="beautiful sunny day">
+      </picture>
       <div class="flybox">
         <h3 class='content-title'>Weather Summary</h3>
         <span class="label-summary">Summary: </span><span class="summary">Partly Cloudy</span>
         <span class="label-high">High:</span><span class="high">32&deg;C</span>
         <span class="label-humidity">Humidity</span><span class="humidity">68%</span>
         <span class="label-wind">Wind</span><span class="wind">6km/h</span>
-        <span class="label-precipitation">Precipitation</span><span class="precipitation">17%</span>
+        <span class="label-chill">Wind Chill</span><span class="chill">3</span>
       </div>
     </div>
     <div class="contentbox forecast">
       <h3 class='content-title'>5 Day Forecast</h3>
       <ul>
         <li class="forecast-box">
-          <h4>Monday </h4> 
+          <h4>Monday </h4>
           <span class="fas fa-cloud-rain icon"></span>
           <p class="temp">30&deg;C</p>
         </li>
         <li class="forecast-box">
-          <h4>Tuesday </h4> 
+          <h4>Tuesday </h4>
           <span class="fas fa-cloud-showers-heavy icon"></span>
           <p class="temp">29&deg;C</p>
         </li>
         <li class="forecast-box">
-          <h4>Wednesday </h4> 
+          <h4>Wednesday </h4>
           <span class="fas fa-cloud-rain icon"></span>
           <p class="temp">30&deg;C</p>
         </li>
         <li class="forecast-box">
-          <h4>Thursday</h4> 
+          <h4>Thursday</h4>
           <span class="fas fa-cloud-sun-rain icon"></span>
           <p class="temp">31&deg;C</p>
         </li>
         <li class="forecast-box">
-          <h4>Friday</h4> 
+          <h4>Friday</h4>
           <span class="fas fa-cloud-sun icon"></span>
           <p class="temp">32&deg;C</p>
         </li>
@@ -91,20 +96,20 @@
     <div class="contentbox forecast tips">
       <h3 class='content-title'>Safety Tips</h3>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-        Ut iaculis turpis ac quam sodales mattis. 
-        Sed efficitur condimentum nunc, sed gravida risus blandit nec. 
-        Mauris sit amet hendrerit nisi, at auctor est. 
-        Nam non justo facilisis, fringilla risus placerat, facilisis tortor. 
-        Morbi ultricies turpis non libero ultricies lobortis. 
-        Suspendisse gravida est in malesuada sodales. 
-        Pellentesque accumsan erat in nisi aliquet ornare. 
-        Vivamus in imperdiet erat, ac vestibulum nunc. 
-        Cras vitae mauris at metus consequat porttitor. 
-        Fusce eget eros consequat, lacinia elit quis, vulputate elit. 
-        Sed felis diam, consectetur vitae pretium ac, iaculis quis mauris. 
-        Mauris condimentum nunc lorem, at sagittis sem dictum id. 
-        Maecenas tristique odio est. Pellentesque quis metus et eros posuere fermentum. 
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Ut iaculis turpis ac quam sodales mattis.
+        Sed efficitur condimentum nunc, sed gravida risus blandit nec.
+        Mauris sit amet hendrerit nisi, at auctor est.
+        Nam non justo facilisis, fringilla risus placerat, facilisis tortor.
+        Morbi ultricies turpis non libero ultricies lobortis.
+        Suspendisse gravida est in malesuada sodales.
+        Pellentesque accumsan erat in nisi aliquet ornare.
+        Vivamus in imperdiet erat, ac vestibulum nunc.
+        Cras vitae mauris at metus consequat porttitor.
+        Fusce eget eros consequat, lacinia elit quis, vulputate elit.
+        Sed felis diam, consectetur vitae pretium ac, iaculis quis mauris.
+        Mauris condimentum nunc lorem, at sagittis sem dictum id.
+        Maecenas tristique odio est. Pellentesque quis metus et eros posuere fermentum.
         Sed tristique dui eget odio egestas pharetra.
       </p>
       <img src="images/hot.jpg" alt="article image">
@@ -139,6 +144,7 @@
   <script defer src="js/currentDate.js"></script>
   <script defer src="js/navigation.js"></script>
   <script defer src="js/pancake.js"></script>
+  <script src="js/windchill.js"></script> 
 </body>
 
 </html>
