@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Varela+Round');
+
+:root {
+  --heading-font: Quicksand, helvetica, sans-serif;
+  --paragraph-font: "Varela Round", Times, serif;
+  --content-font: "Varela Round", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-family: var(--heading-font);
+}
+
+h1{
+  text-align: center;
+}
+picture{
+  display: block;
+  margin: auto;
+  text-align: center;
+  height: 400px;
+  width: 300px;
+  padding: 1em;
+
+}
+
+img{
+  border-radius: 10px;
+  filter: blur(0em);
+  transition: 100ms filter;
+  width: 100%;
+  height: 100%;
+}
+
+img[data-src] {
+  filter: blur(0.2em);
+}
