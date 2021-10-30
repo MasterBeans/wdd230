@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Varela+Round');
+
+:root {
+  --heading-font: Quicksand, helvetica, sans-serif;
+  --paragraph-font: "Varela Round", Times, serif;
+  --content-font: "Varela Round", sans-serif;
+}
+
+/*Start Basic Page Styling*/
+body {
+  background-color: #d9b08c;
+  ;
+  margin: 0;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font);
+  padding: 0.5em;
+  line-height: 1.5em;
+  margin-bottom: 1px;
+  margin-top: 5px;
+}
+
+h1 {
+  font-size: 1.7em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.3em;
+}
+
+p {
+  padding: 0 0;
+  font-family: var(--paragraph-font);
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  font-size: x-large;
+  background-color: #2C3531;
+  padding: 2px;
+  padding-right: 20%;
+}
+
+img {
+  max-width: 100%;
+}
+
+header img {
+  float: right;
+  width: 200px;
+
+}
+
+.header-content {
+  vertical-align: middle;
+  padding-top: 35px;
+
+}
+
+.header-content h1 {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  line-height: 1em;
+}
+
+#motto {
+  font-size: .7em;
+  font-family: var(--paragraph-font);
+  text-align: right;
+
+}
+
+nav {
+  margin: 0;
+  text-align: left;
+  background-color: #d6d0d0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+}
+
+nav ul li {
+  flex: 1 1 100%;
+  text-align: center;
+  background-color: #d6d0d0;
+  color: #1C0891;
+  padding: 0.5rem;
+
+}
+
+nav ul li a {
+  text-align: center;
+  text-decoration: none;
+  font-family: var(--paragraph-font);
+  font-size: 1em;
+}
+
+nav ul li:hover {
+  background-color: #2747f2;
+  color: #faeca2;
+}
+
+nav ul li a:hover {
+  color: #faeca2;
+}
+
+nav ul li:first-child {
+  display: none;
+}
+
+nav ul li .active {
+  color: blue;
+  text-shadow: .5px .5px #2747f2;
+}
+
+main {
+  padding: 1em 3em;
+  font-family: var(--content-font);
+  margin: auto 5% auto 5%;
+  display: block;
+  max-width: 800px;
+  margin: auto;
+}
+
+main h2 {
+  margin: 0;
+  padding: 0;
+}
+
+main img {
+  max-width: 100%;
+  box-shadow: black;
+}
+
+footer {
+  text-align: center;
+  background-color: #9D9D9D;
+  font-size: 1.1em;
+  display: grid;
+  height: 55px;
+  border-radius: 3px;
+}
+
+.footer-bar {
+  background-color: #2C3531;
+  margin: 0;
+  padding: 20px;
+  font-family: var(--paragraph-font);
+  font-size: 14px;
+}
+
+.footer-bar ul {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-bar ul li {
+  display: inline;
+  padding: 0 10px 0 10px;
+}
+
+/*End Basic Page Styling*/
