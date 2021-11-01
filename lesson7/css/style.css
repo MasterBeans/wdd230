@@ -181,3 +181,31 @@ footer {
 }
 
 /*End Basic Page Styling*/
+
+.image-content{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+
+  
+}
+
+.image-card{
+ 
+  margin: 5px;
+  max-width: 300px;
+  max-height: 400px;
+  box-shadow: 5px 5px 10px rgba(71, 69, 69, 0.2);
+}
+
+.image-card img{
+  width: 100%;
+}
+
+.description{
+
+  margin: 0;
+  font-family: var(--paragraph-font);
+  font-size: 14px;
+ 
+}

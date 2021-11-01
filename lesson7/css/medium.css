@@ -41,4 +41,10 @@
     padding: 1em 1em;
   }
   /*End Basic Styling*/
+
+  .image-content{
+    grid-template-columns: 1fr 1fr;
+  }
+
 }
+

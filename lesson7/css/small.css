@@ -80,7 +80,9 @@
   }
   /*End Basic Small Screen Styling*/
 
-
+.image-content{
+  grid-template-columns: 1fr;
+}
 
 
 
