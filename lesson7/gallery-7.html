@@ -18,6 +18,8 @@
   <link rel="stylesheet" href="css/medium.css">
   <!-- CSS for Small Screen -->
   <link rel="stylesheet" href="css/small.css">
+
+
 </head>
 
 <body>
@@ -43,44 +45,46 @@
     <h2>Weather Gallery</h2>
     <div class="image-content">
       <picture class="image-card">
-        <img src="" alt="pic_1">
-        <p class="description">Description</p>
+        <img src="images/placeholder.jpg" data-src="images/unsplash_1.jpg" alt="pic_1">
+        <p class="description">Sunny day at the farm</p>
       </picture>
       <picture class="image-card">
-        <img src="" alt="pic_2">
-        <p class="description">Description</p>
+        <img src="images/placeholder.jpg" data-src="images/weather_2.jpg" alt="pic_2">
+        <p class="description">Chillin' snow flakes</p>
       </picture>
       <picture class="image-card">
-        <img src="" alt="pic_3">
-        <p class="description">Description</p>
+        <img src="images/placeholder.jpg" data-src="images/weather_3.jpg" alt="pic_3">
+        <p class="description">Metropolitan rain</p>
       </picture>
       <picture class="image-card">
-        <img src="" alt="pic_4">
-        <p class="description">Description</p>
+        <img src="images/placeholder.jpg" data-src="images/weather_4.jpg" alt="pic_4">
+        <p class="description">Sunsset reflection</p>
       </picture>
       <picture class="image-card">
-        <img src="" alt="pic_5">
-        <p class="description">Description</p>
+        <img src="images/placeholder.jpg" data-src="images/weather_5.jpg" alt="pic_5">
+        <p class="description">Winter season</p>
       </picture>
       <picture class="image-card">
-        <img src="" alt="pic_6">
-        <p class="description">Description</p>
+        <img src="images/placeholder.jpg" data-src="images/weather_6.jpg" alt="pic_6">
+        <p class="description">Spring beauty</p>
       </picture>
       <picture class="image-card">
-        <img src="" alt="pic_7">
-        <p class="description">Description</p>
+        <img src="images/placeholder.jpg" data-src="images/weather_7.jpg" alt="pic_7">
+        <p class="description">Falling leaves</p>
       </picture>
       <picture class="image-card">
-        <img src="" alt="pic_8">
-        <p class="description">Description</p>
+        <img src="images/placeholder.jpg" data-src="images/weather_8.jpg" alt="pic_8">
+        <p class="description">Summer beach</p>
       </picture>
       <picture class="image-card">
-        <img src="" alt="pic_9">
-        <p class="description">Description</p>
+        <img src="images/placeholder.jpg" data-src="images/weather_9.jpg" alt="pic_9">
+        <p class="description">Winter wonderland</p>
       </picture>
     </div>
   </main>
   <footer>
+
+
     <section class="footer-bar">
       <ul>
         <li>&copy; <span id="year"></span> </li>
@@ -90,12 +94,19 @@
         <li>Vincent Jularbal</li>
       </ul>
       <span id="currentDate"></span>
+      <div class="visitor">
+      <span id="counts"></span>
+      
+      <span id="days"></span>
+      
+      <span id="visits"></span>
+      </div>
     </section>
   </footer>
-
+  <script src="js/lazyload.js" defer></script>
   <script defer src="js/currentDate.js"></script>
   <script defer src="js/navigation.js"></script>
-
+  <script src="js/visitor.js"></script>
 </body>
 
 </html>
