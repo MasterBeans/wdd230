@@ -409,6 +409,68 @@ footer a {
   display: block;
 }
 
-fieldset{
-  display: block;
+
+.form-card{
+  padding: 10px;
+  flex-direction: row;
+}
+form{
+  width: 90%;
+}
+
+form fieldset{
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(70, 69, 69, 0.2);
+  width: 100%;
+  display:flex;
+  flex-direction: column;  
+}
+form fieldset legend{
+  font-size: 1.1em;
+}
+form fieldset label{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px; 
+  font-size: 14px; 
+}
+
+form fieldset label input{
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  border: none;
+}
+
+select{
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+}
+select option{
+  font-size: 1em;
+}
+textarea{
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.radio{
+  display: inline-block;
+  margin: 0 30px 10px 0;
+}
+
+.button{
+  padding: 10px 50px;
+  font-weight: 600;
+  background-color: dodgerblue;
+  color: white;
+  border: none;
+  border-radius: 10px;  
+  
 }

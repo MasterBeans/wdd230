@@ -44,11 +44,11 @@
   <main>
     
     <h2>Storm Center</h2>
-        <div>
+        <div class="form-card">
             <form method="get" action="thanks.html">
                 <fieldset>
                     <legend>Personal Info</legend>
-                    <label>Full Name*<input type="text" placeholder="Type your name here" name="fullname" pattern="[\sa-zA-Z]{5,}"  required autofocus></label>
+                    <label>Full Name*<input type="text" placeholder="Your name.." name="fullname" pattern="[\sa-zA-Z]{5,}"  required autofocus></label>
                     <label>Email<input type="email" placeholder="example@panahoncenter.com" name="email"  ></label>
                     <label>Phone Number*<input type="tel" placeholder="123 456 7890" name="phone"  pattern="[0-9]{10,}" required></label>
                     <label>Zip Code*<input type="number" placeholder="1234" name="zipcode" required></label>
@@ -64,7 +64,7 @@
                             <option value="Thunderstorm"></option>
                             <option value="Tornado"></option>
                         </datalist>
-                    <label >Storm Severity: <span id="severity_severity">5</span><input type="range" name="severity" min="1" max="10"></label>
+                    <label>Storm Severity: <span id="severity_level">5</span><input type="range" name="severity" min="1" max="10" oninput="changeValue(this.value)" onchange="changeValue(this.value)"></label>
                     <label >Storm Region
                         <select name="storm_region">
                             <option disabled selected>Select Region</option>
@@ -73,13 +73,14 @@
                             <option value="fishhaven">Fish Haven</option>
                         </select>
                     </label>
-                    <label">User-In-Danger Level</label>
-                    <label><input type="radio" name="danger_level" value="yes"> Yes</label>
-                    <label ><input type="radio" name="danger_level" value="maybe"> Maybe</label>
-                    <label ><input type="radio" name="danger_level" value="no"> No</label>
+                    <label>User-In-Danger Level</label>
+                    <label class="radio"><input type="radio" name="danger_level" value="yes"> Yes</label>
+                    <label class="radio"><input type="radio" name="danger_level" value="maybe"> Maybe</label>
+                    <label class="radio"><input type="radio" name="danger_level" value="no"> No</label>
+                
                     <label >Comments<textarea name="comment" placeholder="Add details/comments here"></textarea></label>
                 </fieldset>
-                <input type="submit" value="Report a Storm">
+                <input type="submit" class="button" value="Report Storm">
             </form>
            
         </div>
@@ -107,10 +108,10 @@
       </div>
     </section>
   </footer>
-  <script src="js/lazyload.js" defer></script>
+  
   <script defer src="js/currentDate.js"></script>
   <script defer src="js/navigation.js"></script>
-  <script src="js/visitor.js"></script>
+  <script defer src="js/storm.js"></script>
 </body>
 
 </html>
