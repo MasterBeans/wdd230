@@ -1,0 +1,204 @@
+@media screen and (max-width: 32.5em) {
+  header h1 {
+    font-size: 1em;
+  }
+
+  h2 {
+    font-size: 1em;
+  }
+
+  .header-content {
+    vertical-align: middle;
+    padding-top: 30px;
+
+  }
+
+  header img {
+    width: 100px;
+
+  }
+
+  #motto {
+    font-size: .3em;
+  }
+
+  nav {
+    margin: 0 auto;
+    background-color: #2747f2;
+  }
+
+  nav ul {
+
+    padding: 0;
+    list-style: none;
+
+  }
+
+  nav ul li {
+    display: none;
+
+  }
+
+  nav ul li .active {
+    color: blue;
+    text-shadow: .5px .5px #2747f2;
+  }
+
+  nav ul li:first-child {
+    display: block;
+
+  }
+
+  nav ul li:hover {
+    background-color: #2747f2;
+    color: #faeca2;
+  }
+
+  nav ul a {
+    display: block;
+    padding: 0.1em;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    transition: 0.5s;
+  }
+
+  .navigation a:hover {
+    color: #faeca2;
+  }
+
+  .responsive li {
+    display: block;
+    text-align: left;
+  }
+
+  .summary h2 {
+    font-size: 1em;
+  }
+
+  .content-title {
+    margin: 5px;
+    padding: 0;
+    font-size: .8em;
+
+  }
+
+  .flybox {
+    height: inherit;
+  }
+
+
+
+
+  .forecast ul {
+    display: block;
+    list-style-type: none;
+    padding: 0;
+    font-size: 1em;
+  }
+
+  .forecast-box {
+    max-height: 50px;
+    display: flex;
+    margin: 5px;
+    background-color: rgba(255, 255, 255, 0.3);
+    text-align: center;
+    padding: 10px;
+  }
+
+  .forecast-box h4 {
+    width: 25%;
+  }
+
+  .forecast-box .icon {
+    font-size: 3em;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+  }
+
+  .forecast-box .temp {
+    font-size: 1.5em;
+    padding-right: 20px;
+  }
+
+  .tips img {
+    width: inherit;
+    margin: 0;
+    padding: 0;
+  }
+
+  .footer-box {
+    padding: 0;
+    margin: 0;
+    align-content: center;
+  }
+
+  .footer-box img {
+    grid-row: 2/4;
+    min-width: 0;
+  }
+
+  .footer-bar {
+    font-size: 10px;
+  }
+
+  .footer-bar ul li {
+    display: inline;
+    padding: 0 4px 0 4px;
+  }
+
+  .social-media {
+    display: flex;
+
+
+
+  }
+
+  .social-media a {
+    flex: 1 1 100%;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+
+  #motto{
+    font-size: 11px; 
+    text-align: center;
+    margin-bottom:14px;
+ 
+   
+   }
+}
+
+@media screen and (max-width: 28em) {
+  header h1 {
+    font-size: .9em;
+  }
+
+  .header-content {
+    vertical-align: middle;
+    padding-top: 25px;
+
+  }
+
+  header img {
+    width: 90px;
+
+  }
+
+  header #motto {
+    font-size: 7px;
+    text-align: left;
+  }
+
+  .image-content {
+    grid-template-columns: 1fr;
+  }
+
+  
+}
