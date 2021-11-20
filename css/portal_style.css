@@ -1,0 +1,91 @@
+/* @import url('https://fonts.googleapis.com/css?family=New+Tegomin|Quicksand|Varela+Round'); */
+
+:root {
+  --heading-font: Quicksand, helvetica, sans-serif;
+  --paragraph-font: "New Tegomin", Times, serif;
+  --content-font: "Varela Round", sans-serif;
+/* 
+color scheme*/
+  --color1: #2C3531;
+  --color2: #116466;
+  --color3: #d9b08c;
+  --color4: #FFCB9A;
+  --color5: #D1E8E2;
+
+}
+body {
+  background-color: white;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  padding: 0.5em;
+  line-height: 1.5em;
+  margin-bottom: 1px;
+  margin-top: 5px;
+}
+h1{
+  font-size: 1.7em;
+}
+h2{
+  font-size: 1.5em;
+}
+h3{
+  font-size: 1.3em;
+}
+
+p {
+  padding: 0 0;
+  font-family: var(--paragraph-font);
+}
+
+li {
+  padding: 5px;
+}
+
+a:hover {
+
+  color: yellowgreen;
+
+}
+
+header {
+  text-align: center;
+  color: white;
+  font-size:x-large;
+  background-color: #2C3531;
+  padding:10px;
+  border-radius: 3px;
+}
+
+header img {
+  float:right;
+	width: 160px;
+  box-shadow: 1px 1px 10px black;
+  border-radius: 5px;
+  margin: 20px 0 0 0;
+}
+
+.main-content {
+  padding: 1em 3em;
+  font-family: var(--content-font);
+  background-color: #D1E8E2;
+}
+
+
+footer {
+  text-align: center;
+  background-color: #116466;
+  font-size: 1.1em;
+  display: grid;
+  height: 55px;
+  border-radius: 3px;
+  color: white;
+}
+
+footer a{
+  color: white;
+}
