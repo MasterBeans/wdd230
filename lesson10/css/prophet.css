@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Varela+Round');
+
+
+:root {
+  --heading-font: Quicksand, helvetica, sans-serif;
+  --paragraph-font: "Varela Round", Times, serif;
+  --content-font: "Varela Round", sans-serif;
+}
+
+*{
+  box-sizing: border-box;
+ 
+}
+body{
+  max-width: 960px;
+  margin: 0 auto;
+  
+}
+main{
+  margin: 0 auto;
+}
+img{
+  width: 100%;
+  padding: 10px;
+  overflow: hidden;
+}
+.cards{
+ display: grid;
+ grid-template-columns: 1fr;
+ place-self: center;
+}
+h2{
+  font-size: 1.15rem;
+}
+section{
+  background-color: #d9b08c;
+  color: #000000;
+  margin: 10px;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(70, 69, 69, 0.4);
+
+}
+
+section img {
+  margin-top: 10px;
+  filter: blur(0em);
+  box-shadow: 5px 5px 10px #2C3531;
+  width: 90%;
+  height: 70%;
+}
+
+h1, h2{
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  
+}
+p{
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  font-size: .75rem;
+}
+footer{
+  background-color: #2C3531;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+@media only screen and (min-width: 32.5em){
+  .cards{
+      grid-template-columns: 1fr 1fr;
+  }
+
+
+}
+@media only screen and (min-width:769px){
+  .cards{
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
