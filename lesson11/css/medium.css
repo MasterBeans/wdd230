@@ -161,4 +161,14 @@
     grid-column: 2/3;
     grid-row: 1/2;
   }
+
+
+  
+.events{
+  font-size: 1em;
+}
+
+.items{
+  font-size: .9em;
+}
 }

@@ -1,5 +1,5 @@
 const APPID = "1da91723321396cba3166b2a18fc0112"
-const city = 5604473
+const city = 5585010
 
 
 const apiURL = `https://api.openweathermap.org/data/2.5/weather?id=${city}&appid=${APPID}&units=imperial`;
@@ -82,7 +82,7 @@ fetch(townURL)
     townEvent.appendChild(h3)
     
 
-    const selectedTown = towns.filter((town) =>town.name === 'Preston');
+    const selectedTown = towns.filter((town) =>town.name === 'Fish Haven');
     
     selectedTown[0].events.forEach(items =>{
       let lists = document.createElement('span');

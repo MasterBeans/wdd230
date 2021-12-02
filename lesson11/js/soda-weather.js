@@ -1,5 +1,5 @@
 const APPID = "1da91723321396cba3166b2a18fc0112"
-const city = 5604473
+const city = 5607916
 
 
 const apiURL = `https://api.openweathermap.org/data/2.5/weather?id=${city}&appid=${APPID}&units=imperial`;
@@ -65,7 +65,6 @@ function windChill(temp, wSpeed) {
   }
 }
 
-
 //town's events
 const townURL = "https://byui-cit230.github.io/weather/data/towndata.json"
 const townEvent = document.querySelector('.events'); 
@@ -82,7 +81,7 @@ fetch(townURL)
     townEvent.appendChild(h3)
     
 
-    const selectedTown = towns.filter((town) =>town.name === 'Preston');
+    const selectedTown = towns.filter((town) =>town.name === 'Soda Springs');
     
     selectedTown[0].events.forEach(items =>{
       let lists = document.createElement('span');
