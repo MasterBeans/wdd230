@@ -44,6 +44,9 @@ h4{
   font-size: 1.2em;
 }
 
+p{
+  font-family: var(--paragraph-font);
+}
 header{
   height: 180px;
   display: block; 
@@ -65,8 +68,17 @@ header img{
 .header-top{
   text-align: right;
   padding: 57px;
-
   background-color: #ffffff;
+}
+
+.header-top h1{
+  position: absolute;
+  width: 100%;
+  margin: -10px auto 0 40px;
+  padding: 0;
+  text-align: center;
+  font-weight: 1.5px;
+  font-size: 26px;
 }
 
 /* Join Now! button */
@@ -134,18 +146,78 @@ main{
 }
 
 .main-top{
-  background-color: grey; /*scaffolding*/
+  
   height: 400px;
   width: 100%;
   margin: 0;
+  display: grid;
+  grid-template-columns: 55% 1fr;
+
 }
 
-.cards{
-  background-color:burlywood; /*scaffolding*/
-  height: 400px;
-  width: 100%;
-  margin: 0;
+#call_action{
+  grid-column: 1/2;
+  background: var(--nav-backcolor);
+  z-index: -1;
+  -webkit-clip-path: polygon(20% 10%, 85% 30%, 100% 100%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
+  padding: 100px 0;
 }
+
+#call_action p{
+  text-align: center;
+  font-size: 250%;
+  color: #ffffff;
+  margin: 10px;
+  padding: 10px;
+}
+
+#hero-image{
+  grid-column: 2/3;
+
+  margin: 0 0 0 -18%;
+  z-index: -2;
+}
+
+#hero-image img{
+  height: 100%;
+  width: 100%;
+
+}
+.cards{
+  height: 400px;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#card-1{
+  background-color:#e3b505; 
+  width: 100%;
+  
+}
+#card-1 img{
+  width: 95%;
+  height: 50%;
+  margin: 5px;
+  padding: 0;
+}
+
+#card-2{
+  background-color:#EBCB4A ;
+  width: 100%;
+}
+#card-2 img{
+  width: 100%;
+}
+#card-3{
+  background-color:#e3b505; 
+  width: 100%;
+}
+#card-3 img{
+  width: 100%;
+}
+
 
 .events{
   background-color:darkgray; /*scaffolding*/
@@ -178,7 +250,7 @@ main{
 .about img{
   grid-column: 1/2;
   grid-row: 2/3;
-  max-width: 70%;
+  max-width: 90%;
   max-height: 80%;
   border-radius: 3px;
   margin: 0 auto;
