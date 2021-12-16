@@ -46,8 +46,35 @@
 
   
 
-  <main>
-    
+  <main id='contact-main'>
+    <div class='name-cards'>
+      <h4>Board of Trustees</h4>
+    </div>
+    <div id="contact-us">
+      <h4>Contact Us</h4>
+      <div class="form-card">
+        <form method="get" action="thanks2.html">
+          <fieldset>
+          <label>Name*<input type="text" placeholder="Your name.." name="fname" pattern="[\sa-zA-Z]{5,}" required autofocus></label>
+          <label>Email*<input type="email" placeholder="example@panahoncenter.com" name="email" required></label>
+          <label>Phone Number<input type="tel" placeholder="123 456 7890" name="phone" pattern="[0-9]{10,}"></label>
+          <label>Message<textarea name="comment" placeholder="Add message here"></textarea></label>
+          <input type="submit" class="button-submit" value="Send Message">
+        </fieldset>
+      </form>
+      </div>
+    </div>
+    <div id="contact-info">
+      <h4>Contact Information</h4>
+      <ul>
+        <li>&#9742; (222) 222-8888</li>
+        <li>&#9742; (63) 917-956-2337</li>
+        <li>&#9993; info@orcham.org</li>
+      </ul>
+      <div id="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d250613.91357571853!2d124.5002251625203!3d11.050440231651207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3307f730e0176ac1%3A0x913bc7c66a44f9a6!2sOrmoc%2C%20Leyte!5e0!3m2!1sen!2sph!4v1639635929247!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
   </main>
   <footer>
     <footer>
@@ -56,11 +83,14 @@
       </p>
     </footer>
   </footer>
+  
   <!-- Main JS file -->
   <script src="js/javascript.js"></script>
-
+  <script src="js/contact.js"></script>
   <!-- Navigation JS -->
   <script src="js/navigation.js"></script>
+
+
 </body>
 
 </html>

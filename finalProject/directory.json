@@ -2,7 +2,7 @@
     "members": [{
             "businessName": "Jollibee",
             "logo": "images/logos/jollibee.png",
-            "link": "www.jollibee.com",
+            "link": "https://www.jollibeefoods.com",
             "address": {
                 "streetAddress": "Aviles St",
                 "city": "Ormoc City",
@@ -17,7 +17,7 @@
         {
             "businessName": "Leyeco V",
             "logo": "images/logos/leyecov.png",
-            "link": "www.leyeco-v.com",
+            "link": "https://www.leyeco-v.com.ph",
             "address": {
                 "streetAddress": "Simangan",
                 "city": "Ormoc City",
@@ -32,7 +32,7 @@
         {
             "businessName": "STI College Inc",
             "logo": "images/logos/sti.png",
-            "link": "www.sticollege.com",
+            "link": "https://www.sti.edu",
             "address": {
                 "streetAddress": "Centrum Aviles",
                 "city": "Ormoc City",
@@ -47,7 +47,7 @@
         {
             "businessName": "Yoyi's Cakes",
             "logo": "images/logos/yoyis.png",
-            "link": "www.yoyiscakes.com",
+            "link": "https://www.yoyis.com.ph",
             "address": {
                 "streetAddress": "San Pedro St",
                 "city": "Ormoc City",
@@ -62,7 +62,7 @@
         {
             "businessName": "Ormocnet",
             "logo": "images/logos/ormocnet.png",
-            "link": "www.ormocnet.com",
+            "link": "https://www.ormocnet.com",
             "address": {
                 "streetAddress": "Villa Hotel",
                 "city": "Ormoc City",
@@ -77,7 +77,7 @@
         {
             "businessName": "GGC Services",
             "logo": "images/logos/ggc.png",
-            "link": "www.ggcservices.com",
+            "link": "https://www.ggcservices.com",
             "address": {
                 "streetAddress": "Punta",
                 "city": "Ormoc City",
@@ -92,7 +92,7 @@
         {
             "businessName": "Gaisano Capital",
             "logo": "images/logos/gaisano.png",
-            "link": "www.gaisanocapital.com",
+            "link": "https://www.gaisanocapital.com",
             "address": {
                 "streetAddress": "Alegria",
                 "city": "Ormoc City",
