@@ -1,0 +1,108 @@
+{
+    "members": [{
+            "businessName": "Jollibee",
+            "logo": "images/logos/jollibee.png",
+            "link": "www.jollibee.com",
+            "address": {
+                "streetAddress": "Aviles St",
+                "city": "Ormoc City",
+                "province": "Leyte",
+                "postalCode": "6541"
+            },
+            "phoneNumbers": {
+                "type": "office",
+                "number": "053 560 8888"
+            }
+        },
+        {
+            "businessName": "Leyeco V",
+            "logo": "images/logos/leyecov.png",
+            "link": "www.leyeco-v.com",
+            "address": {
+                "streetAddress": "Simangan",
+                "city": "Ormoc City",
+                "province": "Leyte",
+                "postalCode": "6541"
+            },
+            "phoneNumbers": {
+                "type": "office",
+                "number": "053 561 4708"
+            }
+        },
+        {
+            "businessName": "STI College Inc",
+            "logo": "images/logos/sti.png",
+            "link": "www.sticollege.com",
+            "address": {
+                "streetAddress": "Centrum Aviles",
+                "city": "Ormoc City",
+                "province": "Leyte",
+                "postalCode": "6541"
+            },
+            "phoneNumbers": {
+                "type": "office",
+                "number": "053 561 1234"
+            }
+        },
+        {
+            "businessName": "Yoyi's Cakes",
+            "logo": "images/logos/yoyis.png",
+            "link": "www.yoyiscakes.com",
+            "address": {
+                "streetAddress": "San Pedro St",
+                "city": "Ormoc City",
+                "province": "Leyte",
+                "postalCode": "6541"
+            },
+            "phoneNumbers": {
+                "type": "office",
+                "number": "053 255 1422"
+            }
+        },
+        {
+            "businessName": "Ormocnet",
+            "logo": "images/logos/ormocnet.png",
+            "link": "www.ormocnet.com",
+            "address": {
+                "streetAddress": "Villa Hotel",
+                "city": "Ormoc City",
+                "province": "Leyte",
+                "postalCode": "6541"
+            },
+            "phoneNumbers": {
+                "type": "office",
+                "number": "053 560 5555"
+            }
+        },
+        {
+            "businessName": "GGC Services",
+            "logo": "images/logos/ggc.png",
+            "link": "www.ggcservices.com",
+            "address": {
+                "streetAddress": "Punta",
+                "city": "Ormoc City",
+                "province": "Leyte",
+                "postalCode": "6541"
+            },
+            "phoneNumbers": {
+                "type": "office",
+                "number": "053 560 9999"
+            }
+        },
+        {
+            "businessName": "Gaisano Capital",
+            "logo": "images/logos/gaisano.png",
+            "link": "www.gaisanocapital.com",
+            "address": {
+                "streetAddress": "Alegria",
+                "city": "Ormoc City",
+                "province": "Leyte",
+                "postalCode": "6541"
+            },
+            "phoneNumbers": {
+                "type": "office",
+                "number": "053 255 6767"
+            }
+        }
+    ]
+}

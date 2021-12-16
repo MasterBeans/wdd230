@@ -56,20 +56,21 @@ img {
 
 header {
   display: grid;
-  grid-template-columns: 30% 1fr 20%;
+  grid-template-columns: 20% 1fr 20%;
   
 }
 
 #header-img {
   grid-column: 1/2;
-  margin: 10px 0 auto 20px;
+  margin: 10px 0 auto 10px;
   height: 120px;
+  text-align: center;
 }
 
 #header-img img {
-  position: absolute;
+  position: relative;
   z-index: 1;
-  padding-left: 60px;
+  padding-left: 0px;
   padding-top: 5px;
 }
 
@@ -516,18 +517,79 @@ textarea{
   color: white;
   border: none;
   border-radius: 10px;  
-  
 }
 
 
 .thanks-main{
   grid-template-rows: 400px;
-
 }
 
 
+/* directory css */
+#directory-main{
+  display: block;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  
+}
+.buttons {
+  display: flex;
+}
+.buttons div {
+  margin: 0px 10px;
+  color: var(--nav-backcolor);
+  cursor: pointer;
+  font-size: 40px;
+}
+.buttons div > * {
+  pointer-events: none;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+.wrapper.list {
+  width: 800px;
+  grid-template-columns: 1fr;
+}
+.wrapper .col {
+  width: calc(100% - 20px);
+  height: 200px;
+  background: #912f40;
+  display: grid;
+  grid-template-columns: 1fr 30%;
+  grid-template-rows: 70px 40px 40px 30px;
+  justify-content: center;
+  align-items: center;
+  color: #fffffa;
+  margin: 10px;
+}
 
+.col h2{
+  padding: 5px;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.col p{
+  padding: 5px;
+}
+.col img{
+  grid-column: 2/3;
+  grid-row: 1/5;
+  height: 100px;
+  width: 120px;
+}
+.col a{
+  color: #EBCB4A;
+}
 
+/* end directory */
 
 
 @media screen and (max-width: 72em) {
