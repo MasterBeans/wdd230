@@ -7,7 +7,7 @@
   h4,
   h5,
   h6 {
-    padding: 0.4em;
+    padding: 0.3em;
     line-height: 1.2em;
     margin-bottom: .8px;
     margin-top: 3.5px;
@@ -29,6 +29,13 @@
   }
 
   p{
-    font-size: 14px;
+    font-size: 12px;
+  }
+  header{
+    height: 120px;
+  }
+  header img{
+    max-width: 100px;
+    margin-left: 5%;
   }
   }

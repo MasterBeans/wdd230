@@ -23,24 +23,32 @@
 
 <body>
   <header>
-    <img src="images/orig_orcham.webp" alt="Logo">
+    <div id="header-img">
+      <img src="images/orig_orcham.webp" alt="Logo">
+    </div>
     <div class="header-top">
       <h1>Ormoc City Chamber of Commerce and Industry</h1>
-      <span class="link-holder">
-        <a href="www.philhealth.gov.ph" id="join">Join Now!</a>
-      </span>
+    </div>
+    <div id="join-button">
+      <a href="join.html" id="join">Join Now!</a>
     </div>
     <nav>
-      <ul>
+      <ul id="nav-menu">
         <li><a class="btn-menu" href="#">&#9776; Menu</a></li>
         <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="#">Join!</a></li>
-        <li><a href="#">City</a></li>
-        <li><a href="#">Directory</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="join.html">Join!</a></li>
+        <li><a href="city.html">City</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
   </header>
+  <div class="alerts" id="alerts">
+    <!-- <div class="alert" id="alert">
+      <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+    <p id="alert"></p>
+    </div> -->
+  </div>
   <main>
     <div class="main-top">
       <div id="call_action" class="hero">
@@ -49,39 +57,39 @@
         </p>
 
         <p>
-           Be a member NOW!
+          Be a member NOW!
         </p>
 
       </div>
-      <div id="hero-image"class="hero"><img src="images/hero2.jpg" alt="hero image"></div>
+      <div id="hero-image" class="hero"><img src="images/hero2.jpg" alt="hero image"></div>
     </div>
     <div class="cards">
       <section class="card" id="card-1">
         <img src="images/mayongs_logo.png" alt="Mayongs">
-        
+
         <h2 class="member-name">Mayong's Bakeshop and Snackhouse</h2>
-        <p> home of Leyte and Samar's favorite burger and breads! 
-          We are delighted when we hear how we change the burger 
+        <p> home of Leyte and Samar's favorite burger and breads!
+          We are delighted when we hear how we change the burger
           and bread experience from food lovers everywhere!</p>
         <p><a href="www.mayongs.com">www.mayongs.com</a></p>
       </section>
       <section class="card" id="card-2">
         <img src="images/edc_logo.jpg" alt="EDC">
         <h2 class="member-name">Energy Development Corporation</h2>
-        <p >Energy Development Corporation is the largest producer of 
-          geothermal energy in the Philippines and the second largest 
-          in the world. It is involved in alternative energy projects, 
+        <p>Energy Development Corporation is the largest producer of
+          geothermal energy in the Philippines and the second largest
+          in the world. It is involved in alternative energy projects,
           including geothermal, hydroelectric and wind energy projects.
         </p>
         <p><a href="www.energy.com.ph">www.energy.com.ph</a></p>
-        
+
       </section>
       <section class="card" id="card-3">
         <img src="images/crispy_logo.jpg" alt="Crispy King">
         <h2 class="member-name">Crispy King</h2>
-        <p>Amoy pa lang ulam na! with a very affordable price 1 pc 
+        <p>Amoy pa lang ulam na! with a very affordable price 1 pc
           Chicken with Rice for 40.00 mabusog ka na! Also offers franchising
-        opportunities.</p>
+          opportunities.</p>
         <p><a href="www.crispykingph.com">www.crispykingph.com</a></p>
 
       </section>
@@ -92,24 +100,41 @@
     <div class="events">
       <h3>Upcoming Events</h3>
       <div>
-          <img src="images/permits.jpg" alt="event">
-          <img src="images/assembly.jpg" alt="event">
+        <img src="images/permits.jpg" alt="event">
+        <img src="images/assembly.jpg" alt="event">
       </div>
 
       <h3>Weather Updates</h3>
-
-
+      <div class="current-weather">
+        <h4>Today's Weather</h4>
+        <p id="current-weather">Temp: | Weather Condition: | Humidity:</p>
+      </div>
+      <div class="forecast">
+        <h4>3 Days Forecast</h4>
+        <div>
+          <h5 id='day1'>Day</h5>
+          <p id='day1-weather'>Temp: | Weather Condition: | Humidity:</p>
+        </div>
+        <div>
+          <h5 id='day2'>Day</h5>
+          <p id='day2-weather'>Temp: | Weather Condition: | Humidity:</p>
+        </div>
+        <div>
+          <h5 id='day3'>Day</h5>
+          <p id='day3-weather'>Temp: | Weather Condition: | Humidity:</p>
+        </div>
+      </div>
     </div>
     <div class="about">
       <h4>About ORCHAM</h4>
       <img src="images/map.jpg" alt="map image">
-      <article>The Ormoc City Chamber of Commerce 
-        and Industry (OrCham) is a non-stock, non-profit, 
-        non-government business organization comprised of 
-        small, medium, and large enterprises, and industry 
-        associations representing various sectors of business, 
+      <article>The Ormoc City Chamber of Commerce
+        and Industry (OrCham) is a non-stock, non-profit,
+        non-government business organization comprised of
+        small, medium, and large enterprises, and industry
+        associations representing various sectors of business,
         all working together to foster a healthier
-        local economy and improve the viability of 
+        local economy and improve the viability of
         business in the community.</article>
       <ul>
         <li> Contact Information</li>
@@ -118,22 +143,22 @@
         <li>&#9993; info@orcham.org</li>
         <li>
           <div class="social-media">
-                <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="facebook icon"></a>
-                <a href="www.instagram.com"><img src="images/instagram.png" alt="instagram icon"></a>
-                <a href="https://twitter.com/?lang=en"><img src="images/twitter.png" alt="twitter icon"></a>
+            <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="facebook icon"></a>
+            <a href="www.instagram.com"><img src="images/instagram.png" alt="instagram icon"></a>
+            <a href="https://twitter.com/?lang=en"><img src="images/twitter.png" alt="twitter icon"></a>
           </div>
 
         </li>
       </ul>
-      
-      
+
+
 
     </div>
     <section class="closable"></section>
   </main>
   <footer>
     <footer>
-      <p>&copy; 2021 | Vincent Jularbal | Philippines |
+      <p>&copy; <span id='year'></span> | Vincent Jularbal | Philippines |
         <a href="#">BYUI Online Learning</a>
       </p>
     </footer>
@@ -143,5 +168,8 @@
 
   <!-- Weather JS -->
   <script src="js/weather.js"></script>
+  <!-- Navigation JS -->
+  <script src="js/navigation.js"></script>
 </body>
+
 </html>
