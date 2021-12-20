@@ -361,15 +361,19 @@ footer a {
 #city-history{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 50px 1fr;
+  grid-template-rows: 90px 1fr;
   background-color: #e3b505;
   padding-bottom: 10px;
 }
-#city-history h3{
+#city-history-heading{
   grid-column: 1/4;
   text-align: center;
+  margin: 0;
+  padding: 0;
 
 }
+
+
 #city-history section{
   margin: 0 20px;
   padding: 0 20px;
