@@ -19,7 +19,7 @@ fetch(apiURL)
     
    
     const alerts = jsObject['alerts'];
-    if(alerts[0] != null){
+    if(alerts != null){
     // document.getElementById('alert').textContent = 
     // alerts[0]['sender_name'] + " : " + alerts[0]['description'];
       const div = document.createElement('div');
